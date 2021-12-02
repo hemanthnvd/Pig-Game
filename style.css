@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Neue", cursive;
+}
+a{
+  text-decoration: none;
+  color: red;
+}
+body {
+  background-color: #ff5151;
+  /* background-color: #ffc286; */
+  text-align: center;
+  justify-content: center;
+  font-weight: 600;
+}
+p {
+  font-size: 30px;
+  margin: 20px;
+  padding: 20px;
+}
+.score {
+  font-size: 40px;
+  margin: 20px;
+  padding: 20px;
+}
+.main {
+  height: 75vh;
+  width: 60vw;
+  margin: 12.5vh auto 0 auto;
+  border-radius: 10px;
+  background-color: #fff1af;
+  /* position: relative; */
+  display: inline-flex;
+}
+.pl1 {
+  width: 50%;
+}
+.hidden {
+  background-color: #f7d08a;
+}
+.pl2 {
+  width: 50%;
+}
+.current {
+  font-size: 25px;
+  background-color: #fda65d;
+  /* background-color: #ffc286; */
+  width: 40%;
+  margin: 125px auto 0 auto;
+  border-radius: 5%;
+}
+.currentscore1 {
+  margin-top: 0;
+  padding-top: 0;
+}
+.currentscore2 {
+  margin-top: 0;
+  padding-top: 0;
+}
+.controls {
+  font-size: 1.125rem;
+  font-weight: 500;
+  background-color: #b2ea70;
+  position: absolute;
+  left: 46%;
+  margin: 50px auto;
+  border-radius: 25%;
+  height: 6vh;
+  width: 8vw;
+}
+.control1 {
+  top: 10vh;
+}
+.control2 {
+  top: 50vh;
+}
+.control3 {
+  top: 60vh;
+}
+.dice {
+  position: absolute;
+  left: 47.5%;
+  width: 5vw;
+  border-radius: 5%;
+  top: 32.5vh;
+}
+.description button {
+  display: space-between;
+  font-size: 2rem;
+  margin: 0 17vh;
+  padding: 0.5em;
+  border-radius: 5vh;
+  background-color: #d3e4cd;
+}
+.alert{
+  height: 60vh;
+  width: 50vw;
+  margin: auto;
+  background-color: #b2ea70;
+  text-align: left;
+  font-size: 1.75rem;
+  font-weight: 500;
+  justify-content: center ;
+  border-radius: 1rem;
+  position : absolute;
+  top: 20vh;
+  left: 25vw;
+  display: none;
+}
+.alerthidden{
+  display: block;
+}
+.heading{
+  height: 8vh;
+  background-color: brown;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.heading span{
+  margin-left: 2vh;
+  margin-top: 5vh
+}
+.heading button{
+  position: relative;
+  left: 90vh;
+}
+.alert ol{
+  padding:2.5vh 3vw;
+  line-height: 150%;
+}
+.alert4{
+  height: 75vh;
+  width: 50vw;
+  margin: auto;
+  background-color: #b2ea70;
+  text-align: left;
+  font-size: 1.75rem;
+  font-weight: 500;
+  justify-content: center ;
+  border-radius: 1rem;
+  position : absolute;
+  top: 20vh;
+  left: 25vw;
+  display: none;
+}
+.alert4hid{
+  display: block;
+}

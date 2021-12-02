@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="Favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pig Game</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="pl1">
+        <p>Player 1</p>
+        <p class="score score1">0</p>
+        <div class="current">
+          <p>Current</p>
+          <p class="currentscore1">0</p>
+        </div>
+      </div>
+      <div class="pl2">
+        <p>Player 2</p>
+        <p class="score score2">0</p>
+        <div class="current">
+          <p>Current</p>
+          <p class="currentscore2">0</p>
+        </div>
+      </div>
+    </div>
+    <button class="controls control1">🔃 New Game</button><br />
+    <img class="dice" src="dice6.png" alt="dice" srcset="" /><br />
+    <button class="controls control2">🎲 Roll Dice</button><br />
+    <button class="controls control3">📥 Hold</button><br />
+    <div class="description">
+      <button class="desbtn">Rules</button>
+      <button class="desbtn">About</button>
+      <button class="desbtn">Home</button>
+    </div>
+    <div class="alert alert1">
+      <div class="heading">
+        <span>Rules</span> <button class="close">❌</button>
+      </div>
+      <ol type="i">
+        <li>
+          Players take turns to roll a single dice as many times as they wish.
+        </li>
+        <li>Adding all roll results to a running total.</li>
+        <li>
+          But players lose their gained score for the turn if they roll a 1
+        </li>
+        <li>🏆Player to hit 100 wins the Game🏆</li>
+      </ol>
+    </div>
+    <div class="alert alert2">
+      <div class="heading">
+        <span>About</span> <button class="close1">❌</button>
+      </div>
+      <ol type="i">
+        <li>This game is made using pure HTML, Vanilla CSS and Javascript.</li>
+        <li>
+          This is made for the purpose of understanding Document object model.
+        </li>
+        <li>
+          Made by
+          <a href="https://www.instagram.com/hemanthnvd/" target="_blank"
+            >hemanthnvd</a
+          >
+        </li>
+      </ol>
+    </div>
+    <div class="alert alert3">
+      <div class="heading">
+        <span>🏠Home</span><button class="close2">❌</button>
+      </div>
+      <ol type="i">
+        <li>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt
+          velit facilis quis voluptatibus, hic molestias laborum aliquid
+          suscipit voluptas rerum quo ad, culpa eos quibusdam laboriosam sequi
+          debitis asperiores eum.
+        </li>
+        <li>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+          accusantium!
+        </li>
+        <li>Lorem ipsum dolor sit amet.</li>
+      </ol>
+    </div>
+    <div class="alert4">
+      <div class="heading">
+        <span class="win">Player 1 wins🏆</span
+        ><button class="close3">❌</button>
+      </div>
+      <iframe
+        src="https://giphy.com/embed/HTjcWZwMtHpyhuCGKZ"
+        width="480"
+        height="480"
+        frameborder="0"
+        class="giphy-embed"
+        allowfullscreen
+      ></iframe>
+      <p>
+        <a
+          href="https://giphy.com/gifs/HBOMax-the-fresh-prince-of-bel-air-hbo-max-HTjcWZwMtHpyhuCGKZ"
+          >via GIPHY</a
+        >
+      </p>
+      `
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
