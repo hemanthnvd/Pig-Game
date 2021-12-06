@@ -3,7 +3,7 @@
   padding: 0;
   font-family: "Comic Neue", cursive;
 }
-a{
+a {
   text-decoration: none;
   color: red;
 }
@@ -93,7 +93,7 @@ p {
   border-radius: 5vh;
   background-color: #d3e4cd;
 }
-.alert{
+.alert {
   height: 60vh;
   width: 50vw;
   margin: auto;
@@ -101,35 +101,35 @@ p {
   text-align: left;
   font-size: 1.75rem;
   font-weight: 500;
-  justify-content: center ;
+  justify-content: center;
   border-radius: 1rem;
-  position : absolute;
+  position: absolute;
   top: 20vh;
   left: 25vw;
   display: none;
 }
-.alerthidden{
+.alerthidden {
   display: block;
 }
-.heading{
+.heading {
   height: 8vh;
   background-color: brown;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
 }
-.heading span{
+.heading span {
   margin-left: 2vh;
-  margin-top: 5vh
+  margin-top: 5vh;
 }
-.heading button{
+.heading button {
   position: relative;
-  left: 90vh;
+  left: 39rem;
 }
-.alert ol{
-  padding:2.5vh 3vw;
+.alert ol {
+  padding: 2.5vh 3vw;
   line-height: 150%;
 }
-.alert4{
+.alert4 {
   height: 75vh;
   width: 50vw;
   margin: auto;
@@ -137,17 +137,19 @@ p {
   text-align: left;
   font-size: 1.75rem;
   font-weight: 500;
-  justify-content: center ;
+  justify-content: center;
   border-radius: 1rem;
-  position : absolute;
+  position: absolute;
   top: 20vh;
   left: 25vw;
   display: none;
 }
-.alert4hid{
+.alert4hid {
   display: block;
 }
-/* mediaqueries */
+
+/* media queries */
+
 @media (max-width: 500px) {
   .pl1 P:first-child {
     font-size: 1rem;
@@ -155,11 +157,15 @@ p {
   .pl2 P:first-child {
     font-size: 1rem;
   }
-  .controls{
+  .controls {
     font-size: 0.65rem;
   }
-  .current p{
+  .current p {
     position: relative;
     right: 5vh;
+  }
+  .heading button {
+    position: relative;
+    left: 7rem;
   }
 }
