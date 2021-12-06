@@ -147,3 +147,19 @@ p {
 .alert4hid{
   display: block;
 }
+/* mediaqueries */
+@media (max-width: 500px) {
+  .pl1 P:first-child {
+    font-size: 1rem;
+  }
+  .pl2 P:first-child {
+    font-size: 1rem;
+  }
+  .controls{
+    font-size: 0.65rem;
+  }
+  .current p{
+    position: relative;
+    right: 5vh;
+  }
+}
